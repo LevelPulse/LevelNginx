@@ -333,3 +333,38 @@
 2014/06/09 20:46:31 [error] 5148#5440: *1 CreateFile() "C:\Users\LevelPulse\Documents\GitHub\LevelNginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
 2014/06/09 20:46:31 [error] 5148#5440: *1 CreateFile() "C:\Users\LevelPulse\Documents\GitHub\LevelNginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
 2014/06/09 20:46:31 [error] 5148#5440: *1 CreateFile() "C:\Users\LevelPulse\Documents\GitHub\LevelNginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2014/06/09 20:46:45 [info] 5148#5440: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/06/09 20:46:45 [info] 5148#5440: *3 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/06/09 20:46:45 [info] 5148#5440: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/06/09 20:46:55 [notice] 4000#3696: worker process 5148 exited with code 1
+2014/06/09 20:46:55 [notice] 4000#3696: worker process 5148 exited with code 1
+2014/06/09 20:46:55 [notice] 4000#3696: start worker process 2468
+2014/06/09 20:46:55 [notice] 4000#3696: start worker process 2468
+2014/06/09 20:46:55 [notice] 2468#2064: sockinit() attempting to access sockapi
+2014/06/09 20:46:55 [notice] 2468#2064: Access to sockapi succeded!
+2014/06/09 20:46:55 [notice] 2468#2064: using sockapi from "4;8;"
+2014/06/09 20:46:55 [notice] 2468#2064: nginx/1.7.1.3 RedKnight
+2014/06/09 20:46:55 [notice] 2468#2064: nginx/1.7.1.3 RedKnight
+2014/06/09 20:46:55 [info] 2468#2064: OS: 260110 build:7601, "Service Pack 1", suite:300, type:1
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 5160
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 5160
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 4384
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 4384
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 480
+2014/06/09 20:46:55 [notice] 2468#2064: create thread 480
+2014/06/09 20:46:58 [notice] 4000#3696: worker process 2468 exited with code 1
+2014/06/09 20:46:58 [notice] 4000#3696: worker process 2468 exited with code 1
+2014/06/09 20:46:58 [notice] 4000#3696: start worker process 832
+2014/06/09 20:46:58 [notice] 4000#3696: start worker process 832
+2014/06/09 20:46:58 [notice] 832#1272: sockinit() attempting to access sockapi
+2014/06/09 20:46:58 [notice] 832#1272: Access to sockapi succeded!
+2014/06/09 20:46:58 [notice] 832#1272: using sockapi from "4;8;"
+2014/06/09 20:46:58 [notice] 832#1272: nginx/1.7.1.3 RedKnight
+2014/06/09 20:46:58 [notice] 832#1272: nginx/1.7.1.3 RedKnight
+2014/06/09 20:46:58 [info] 832#1272: OS: 260110 build:7601, "Service Pack 1", suite:300, type:1
+2014/06/09 20:46:58 [notice] 832#1272: create thread 2368
+2014/06/09 20:46:58 [notice] 832#1272: create thread 2368
+2014/06/09 20:46:58 [notice] 832#1272: create thread 2052
+2014/06/09 20:46:58 [notice] 832#1272: create thread 2052
+2014/06/09 20:46:58 [notice] 832#1272: create thread 4108
+2014/06/09 20:46:58 [notice] 832#1272: create thread 4108
