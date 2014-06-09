@@ -1,0 +1,311 @@
+2014/05/26 14:50:49 [notice] 4496#3224: using the "select-boost" event method
+2014/05/26 14:50:49 [notice] 4496#3224: using the "select-boost" event method
+2014/05/26 14:50:49 [notice] 4496#3224: nginx/1.7.1.3 RedKnight
+2014/05/26 14:50:49 [notice] 4496#3224: nginx/1.7.1.3 RedKnight
+2014/05/26 14:50:49 [info] 4496#3224: OS: 260110 build:7601, "Service Pack 1", suite:300, type:1
+2014/05/26 14:50:49 [notice] 4496#3224: start worker processes
+2014/05/26 14:50:49 [notice] 4496#3224: start worker processes
+2014/05/26 14:50:49 [notice] 4496#3224: start worker process 3044
+2014/05/26 14:50:49 [notice] 4496#3224: start worker process 3044
+2014/05/26 14:50:49 [notice] 3044#4764: sockinit() attempting to access sockapi
+2014/05/26 14:50:49 [notice] 3044#4764: Access to sockapi succeded!
+2014/05/26 14:50:49 [notice] 3044#4764: using sockapi from "4;8;"
+2014/05/26 14:50:49 [notice] 3044#4764: nginx/1.7.1.3 RedKnight
+2014/05/26 14:50:49 [notice] 3044#4764: nginx/1.7.1.3 RedKnight
+2014/05/26 14:50:49 [info] 3044#4764: OS: 260110 build:7601, "Service Pack 1", suite:300, type:1
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2828
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2828
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2908
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2908
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2324
+2014/05/26 14:50:49 [notice] 3044#4764: create thread 2324
+2014/05/26 14:50:52 [error] 3044#2828: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2014/05/26 14:50:52 [error] 3044#2828: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2014/05/26 14:50:52 [error] 3044#2828: *1 CreateFile() "C:\nginx/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1"
+2014/05/26 14:51:06 [info] 3044#2828: *2 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:53:56 [info] 3044#2828: *4 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:54:41 [info] 3044#2828: *5 client connected '127.0.0.1'
+2014/05/26 14:54:41 [info] 3044#2828: *5 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://127.0.0.1/live' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:41 [info] 3044#2828: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:41 [info] 3044#2828: *5 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:47 [info] 3044#2828: *11 client connected '127.0.0.1'
+2014/05/26 14:54:47 [info] 3044#2828: *11 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:47 [info] 3044#2828: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:47 [info] 3044#2828: *11 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:54:56 [info] 3044#2828: *6 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:54:56 [info] 3044#2828: *10 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:54:56 [info] 3044#2828: *9 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:54:56 [info] 3044#2828: *8 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:54:56 [info] 3044#2828: *7 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:55:14 [info] 3044#2828: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:55:14 [info] 3044#2828: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:55:14 [info] 3044#2828: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:56:29 [info] 3044#2828: *12 client connected '127.0.0.1'
+2014/05/26 14:56:29 [info] 3044#2828: *12 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://127.0.0.1/live' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:56:29 [info] 3044#2828: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:56:29 [info] 3044#2828: *12 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:38 [info] 3044#2828: *13 client connected '127.0.0.1'
+2014/05/26 14:57:38 [info] 3044#2828: *13 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:38 [info] 3044#2828: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:38 [info] 3044#2828: *13 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:40 [info] 3044#2828: *13 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:40 [info] 3044#2828: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:40 [info] 3044#2828: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:42 [info] 3044#2828: *14 client connected '127.0.0.1'
+2014/05/26 14:57:42 [info] 3044#2828: *14 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:42 [info] 3044#2828: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:42 [info] 3044#2828: *14 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:44 [info] 3044#2828: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:44 [info] 3044#2828: *14 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:44 [info] 3044#2828: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:57:44 [info] 3044#2828: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:00 [info] 3044#2828: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:00 [info] 3044#2828: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:03 [info] 3044#2828: *21 client connected '127.0.0.1'
+2014/05/26 14:58:03 [info] 3044#2828: *21 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:03 [info] 3044#2828: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:03 [info] 3044#2828: *21 play: name='720' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:05 [info] 3044#2828: *22 client connected '127.0.0.1'
+2014/05/26 14:58:05 [info] 3044#2828: *22 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:05 [info] 3044#2828: *22 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:05 [info] 3044#2828: *22 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:16 [info] 3044#2828: *16 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:58:16 [info] 3044#2828: *19 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:58:16 [info] 3044#2828: *18 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:58:16 [info] 3044#2828: *17 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:58:16 [info] 3044#2828: *20 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 14:58:17 [info] 3044#2828: *23 client connected '127.0.0.1'
+2014/05/26 14:58:17 [info] 3044#2828: *23 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:17 [info] 3044#2828: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:17 [info] 3044#2828: *23 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:20 [info] 3044#2828: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:20 [info] 3044#2828: *23 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:20 [info] 3044#2828: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:20 [info] 3044#2828: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:22 [info] 3044#2828: *24 client connected '127.0.0.1'
+2014/05/26 14:58:22 [info] 3044#2828: *24 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:22 [info] 3044#2828: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:22 [info] 3044#2828: *24 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:24 [info] 3044#2828: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:24 [info] 3044#2828: *24 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:24 [info] 3044#2828: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:24 [info] 3044#2828: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:26 [info] 3044#2828: *25 client connected '127.0.0.1'
+2014/05/26 14:58:26 [info] 3044#2828: *25 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:26 [info] 3044#2828: *25 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:26 [info] 3044#2828: *25 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:28 [info] 3044#2828: *25 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:28 [info] 3044#2828: *25 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:28 [info] 3044#2828: *25 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:28 [info] 3044#2828: *25 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:37 [info] 3044#2828: *26 client connected '127.0.0.1'
+2014/05/26 14:58:37 [info] 3044#2828: *26 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:37 [info] 3044#2828: *26 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:37 [info] 3044#2828: *26 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:40 [info] 3044#2828: *26 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:40 [info] 3044#2828: *26 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:40 [info] 3044#2828: *26 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:40 [info] 3044#2828: *26 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:45 [info] 3044#2828: *27 client connected '127.0.0.1'
+2014/05/26 14:58:45 [info] 3044#2828: *27 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:45 [info] 3044#2828: *27 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:45 [info] 3044#2828: *27 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:48 [info] 3044#2828: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:48 [info] 3044#2828: *27 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:48 [info] 3044#2828: *27 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:58:48 [info] 3044#2828: *27 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:05 [info] 3044#2828: *28 client connected '127.0.0.1'
+2014/05/26 14:59:05 [info] 3044#2828: *28 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:05 [info] 3044#2828: *28 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:05 [info] 3044#2828: *28 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:08 [info] 3044#2828: *28 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:08 [info] 3044#2828: *28 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:08 [info] 3044#2828: *28 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:11 [info] 3044#2828: *29 client connected '127.0.0.1'
+2014/05/26 14:59:11 [info] 3044#2828: *29 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:11 [info] 3044#2828: *29 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:11 [info] 3044#2828: *29 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:14 [info] 3044#2828: *29 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:14 [info] 3044#2828: *29 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:14 [info] 3044#2828: *29 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:19 [info] 3044#2828: *30 client connected '127.0.0.1'
+2014/05/26 14:59:19 [info] 3044#2828: *30 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:19 [info] 3044#2828: *30 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:19 [info] 3044#2828: *30 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:22 [info] 3044#2828: *30 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:22 [info] 3044#2828: *30 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:22 [info] 3044#2828: *30 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:22 [info] 3044#2828: *30 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:23 [info] 3044#2828: *31 client connected '127.0.0.1'
+2014/05/26 14:59:23 [info] 3044#2828: *31 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:23 [info] 3044#2828: *31 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:23 [info] 3044#2828: *31 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:26 [info] 3044#2828: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:26 [info] 3044#2828: *31 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:26 [info] 3044#2828: *31 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:26 [info] 3044#2828: *31 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:31 [info] 3044#2828: *32 client connected '127.0.0.1'
+2014/05/26 14:59:31 [info] 3044#2828: *32 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:31 [info] 3044#2828: *32 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:31 [info] 3044#2828: *32 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:34 [info] 3044#2828: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:34 [info] 3044#2828: *32 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:34 [info] 3044#2828: *32 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:34 [info] 3044#2828: *32 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:41 [info] 3044#2828: *33 client connected '127.0.0.1'
+2014/05/26 14:59:41 [info] 3044#2828: *33 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:41 [info] 3044#2828: *33 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:41 [info] 3044#2828: *33 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:44 [info] 3044#2828: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:44 [info] 3044#2828: *33 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:44 [info] 3044#2828: *33 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 14:59:44 [info] 3044#2828: *33 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:02:17 [info] 3044#2828: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:02:17 [info] 3044#2828: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:02:17 [info] 3044#2828: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:34 [info] 3044#2828: *34 client connected '127.0.0.1'
+2014/05/26 15:08:34 [info] 3044#2828: *34 connect: app='live' args='' flashver='FMLE/3.0 (compatible; FMSc/1.0)' swf_url='rtmp://127.0.0.1/live' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:34 [info] 3044#2828: *34 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:34 [info] 3044#2828: *34 publish: name='test' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:44 [info] 3044#2828: *35 client connected '127.0.0.1'
+2014/05/26 15:08:44 [info] 3044#2828: *35 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:44 [info] 3044#2828: *35 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:44 [info] 3044#2828: *35 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:47 [info] 3044#2828: *35 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:47 [info] 3044#2828: *35 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:47 [info] 3044#2828: *35 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:08:47 [info] 3044#2828: *35 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:08 [info] 3044#2828: *36 client connected '127.0.0.1'
+2014/05/26 15:09:08 [info] 3044#2828: *36 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:08 [info] 3044#2828: *36 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:08 [info] 3044#2828: *36 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:11 [info] 3044#2828: *37 client connected '127.0.0.1'
+2014/05/26 15:09:11 [info] 3044#2828: *37 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:11 [info] 3044#2828: *37 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:11 [info] 3044#2828: *37 publish: name='720' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *37 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *37 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *37 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *37 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *36 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *36 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:09:40 [info] 3044#2828: *36 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:10 [info] 3044#2828: *38 client connected '127.0.0.1'
+2014/05/26 15:11:10 [info] 3044#2828: *38 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:10 [info] 3044#2828: *38 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:10 [info] 3044#2828: *38 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:13 [info] 3044#2828: *39 client connected '127.0.0.1'
+2014/05/26 15:11:13 [info] 3044#2828: *39 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:13 [info] 3044#2828: *39 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:13 [info] 3044#2828: *39 publish: name='720' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *39 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *39 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *39 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *38 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *38 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:29 [info] 3044#2828: *38 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:43 [info] 3044#2828: *40 client connected '127.0.0.1'
+2014/05/26 15:11:43 [info] 3044#2828: *40 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:43 [info] 3044#2828: *40 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:43 [info] 3044#2828: *40 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:45 [info] 3044#2828: *41 client connected '127.0.0.1'
+2014/05/26 15:11:45 [info] 3044#2828: *41 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:45 [info] 3044#2828: *41 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:45 [info] 3044#2828: *41 publish: name='720' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:47 [info] 3044#2828: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:47 [info] 3044#2828: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:47 [info] 3044#2828: *22 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:11:47 [info] 3044#2828: *22 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:02 [info] 3044#2828: *48 client connected '127.0.0.1'
+2014/05/26 15:12:02 [info] 3044#2828: *48 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:02 [info] 3044#2828: *48 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:02 [info] 3044#2828: *48 play: name='720' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:03 [info] 3044#2828: *49 client connected '127.0.0.1'
+2014/05/26 15:12:03 [info] 3044#2828: *49 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:03 [info] 3044#2828: *49 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:03 [info] 3044#2828: *49 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:07 [info] 3044#2828: *43 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:07 [info] 3044#2828: *45 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:07 [info] 3044#2828: *44 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:07 [info] 3044#2828: *46 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:07 [info] 3044#2828: *47 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:30 [info] 3044#2828: *49 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:30 [info] 3044#2828: *49 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:30 [info] 3044#2828: *48 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:30 [info] 3044#2828: *48 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:47 [info] 3044#2828: *50 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:47 [info] 3044#2828: *52 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:47 [info] 3044#2828: *54 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:47 [info] 3044#2828: *53 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:47 [info] 3044#2828: *51 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:12:51 [info] 3044#2828: *41 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *41 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *41 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *41 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *40 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *40 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:12:51 [info] 3044#2828: *40 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:03 [info] 3044#2828: *55 client connected '127.0.0.1'
+2014/05/26 15:13:03 [info] 3044#2828: *55 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:03 [info] 3044#2828: *55 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:03 [info] 3044#2828: *55 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:07 [info] 3044#2828: *56 client connected '127.0.0.1'
+2014/05/26 15:13:07 [info] 3044#2828: *56 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:07 [info] 3044#2828: *56 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:07 [info] 3044#2828: *56 publish: name='720' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *57 client connected '127.0.0.1'
+2014/05/26 15:13:40 [info] 3044#2828: *57 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *57 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *57 play: name='720' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *58 client connected '127.0.0.1'
+2014/05/26 15:13:40 [info] 3044#2828: *58 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *58 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:40 [info] 3044#2828: *58 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *56 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *56 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *56 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *56 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *55 WSASend() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *55 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:13:48 [info] 3044#2828: *55 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:16 [info] 3044#2828: *59 client connected '127.0.0.1'
+2014/05/26 15:14:16 [info] 3044#2828: *59 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=3191 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:16 [info] 3044#2828: *59 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:16 [info] 3044#2828: *59 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:19 [info] 3044#2828: *60 client connected '127.0.0.1'
+2014/05/26 15:14:19 [info] 3044#2828: *60 connect: app='live' args='' flashver='' swf_url='' tc_url='rtmp://127.0.0.1/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:19 [info] 3044#2828: *60 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:19 [info] 3044#2828: *60 publish: name='720' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:38 [info] 3044#2828: *58 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:38 [info] 3044#2828: *58 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:38 [info] 3044#2828: *57 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:38 [info] 3044#2828: *57 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:52 [info] 3044#2828: *67 client connected '127.0.0.1'
+2014/05/26 15:14:53 [info] 3044#2828: *67 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:53 [info] 3044#2828: *67 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:53 [info] 3044#2828: *67 play: name='720' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:53 [info] 3044#2828: *68 client connected '127.0.0.1'
+2014/05/26 15:14:53 [info] 3044#2828: *68 connect: app='live' args='' flashver='WIN 13,0,0,214' swf_url='http://127.0.0.1/assets/jwplayer.flash.swf' tc_url='rtmp://127.0.0.1:1935/live/' page_url='http://127.0.0.1/' acodecs=3575 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:53 [info] 3044#2828: *68 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:53 [info] 3044#2828: *68 play: name='test' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:14:57 [info] 3044#2828: *62 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:14:57 [info] 3044#2828: *63 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:14:57 [info] 3044#2828: *65 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:14:57 [info] 3044#2828: *64 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:14:57 [info] 3044#2828: *66 client closed connection while waiting for request, client: 127.0.0.1, server: 0.0.0.0:80
+2014/05/26 15:15:17 [info] 3044#2828: *67 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:17 [info] 3044#2828: *67 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:17 [info] 3044#2828: *68 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:17 [info] 3044#2828: *68 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:56 [info] 3044#2828: *34 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:56 [info] 3044#2828: *34 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:15:56 [info] 3044#2828: *34 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *60 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *60 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *60 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *60 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *59 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *59 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *59 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2014/05/26 15:16:27 [info] 3044#2828: *59 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935

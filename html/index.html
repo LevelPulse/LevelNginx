@@ -1,0 +1,49 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Stream Control/Stats</title>
+	<script src="assets/jwplayer.js" type="text/javascript"></script>
+</head>
+<body>
+	<div style="width: 100%;display: inline-block;">
+ 
+		<div style="float:left;width:300px;height:240px;">
+			<div id="myElement">Loading the player ...</div>
+			<script type="text/javascript">
+				jwplayer("myElement").setup({
+				file: "rtmp://127.0.0.1:1935/live/flv:test",
+				height: 200,
+				width: 300
+				});
+			</script>
+		</div>
+ 
+		<div style="float:left;width:300px;height:240px;">
+			<div id="myElement2">Loading the player ...</div>
+			<script type="text/javascript">
+				jwplayer("myElement2").setup({
+				file: "rtmp://127.0.0.1:1935/live/flv:720",
+				height: 200,
+				width: 300
+				});
+			</script>
+		</div>
+ 
+		<div style="float:left;width:300px;height:240px;">
+			<div id="myElement3" >Loading the player ...</div>
+			<script type="text/javascript">
+				jwplayer("myElement3").setup({
+				file: "rtmp://192.168.0.2:1935/live3/flv:480",
+				height: 200,
+				width: 300
+				});
+			</script>
+		</div>
+		<div style="clear:both;float:left;font-size:10px;">
+			<iframe frameBorder="0" seamless src="http://127.0.0.1/stat" width="900px" height="500px"></iframe>			
+		</div>
+ 
+  </div>
+</body>
+</html>
