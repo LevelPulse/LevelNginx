@@ -10,9 +10,10 @@
  
 		<div style="float:left;width:300px;height:240px;">
 			<div id="myElement">Loading the player ...</div>
+			<!--After flv: replace this with the stream key-->
 			<script type="text/javascript">
 				jwplayer("myElement").setup({
-				file: "rtmp://127.0.0.1:1935/live/flv:test",
+				file: "rtmp://127.0.0.1:1935/live/flv:streamkey",
 				height: 200,
 				width: 300
 				});
@@ -34,7 +35,7 @@
 			<div id="myElement3" >Loading the player ...</div>
 			<script type="text/javascript">
 				jwplayer("myElement3").setup({
-				file: "rtmp://192.168.0.2:1935/live3/flv:480",
+				file: "rtmp://127.0.0.1:1935/live/flv:480",
 				height: 200,
 				width: 300
 				});
